@@ -1,0 +1,138 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lobster&display=swap');
+
+.fourth-page-product {
+    background-color: #b6dcff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fourth-page-product .div {
+    background-color: #b6dcff;
+    width: 425px;
+    height: 812px;
+    position: relative;
+  }
+  
+  .fourth-page-product .overlap-group {
+    position: absolute;
+    width: 425px;
+    height: 240px;
+    top: 107px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fourth-page-product .rectangle {
+    top: 0;
+    position: absolute;
+    width: 425px;
+    height: 229px;
+    left: 1px;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(227, 100, 136) 0%, rgba(227, 100, 136, 0) 100%);
+  }
+  
+  .fourth-page-product .rectangle-2 {
+    top: 11px;
+    position: absolute;
+    width: 425px;
+    height: 229px;
+    left: 1px;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(227, 100, 136) 0%, rgba(227, 100, 136, 0) 100%);
+  }
+  
+.fourth-page-product marquee {
+  width: 100%;
+  height: auto;
+  z-index: 1; 
+  margin-top: 20px;
+}
+
+.fourth-page-product .product-img1 {
+  width: 200px;
+  height: 200px;
+}
+
+.fourth-page-product .product-img2 {
+  width: 200px;
+  height: 200px;
+}
+
+.fourth-page-product .product-img3 {
+  width: 200px;
+  height: 200px;
+}
+
+  .fourth-page-product .text-wrapper {
+    position: absolute;
+    width: 425px;
+    top: 40px;
+    left: 0px;
+    -webkit-text-stroke: 1.5px #161c2e;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    color: #aef4a4;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .fourth-page-product .navigation-bar {
+    position: relative;
+    width: 425px;
+    height: 50px;
+    top: 745px;
+    left: 17px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fourth-page-product .home-icon {
+    position: fixed;
+    width: 58px;
+    height: 58px;
+    top: 710px;
+    left: 20px;
+  }
+  
+  .fourth-page-product .back-icon {
+    position: fixed;
+    width: 58px;
+    height: 58px;
+    top: 710px;
+    left: 340px;
+  }
+  
+  .fourth-page-product .overlap {
+    position: absolute;
+    width: 425px;
+    height: 369px;
+    top: 376px;
+    left: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fourth-page-product .idcard {
+    position: absolute;
+    width: 260px;
+    height: 164px;
+    top: 0;
+    left: 0;
+  }
+  
+  .fourth-page-product .rot {
+    position: absolute;
+    width: 283px;
+    height: 340px;
+    top: 29px;
+    left: 67px;
+    object-fit: cover;
+  }
+  

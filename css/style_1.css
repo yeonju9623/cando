@@ -1,0 +1,45 @@
+@import "./reset.css";
+.first-page {
+  background-color: #fffdb7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.first-page .overlap-group-wrapper {
+  background-color: #fffdb7;
+  width: 375px;
+  height: 812px;
+}
+
+.first-page .overlap-group {
+  position: relative;
+  height: 812px;
+}
+
+.first-page .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.first-page .rectangle {
+  position: relative;
+  width: 75px;
+  height: 812px;
+  background-color: #b6dcff;
+}
+
+.first-page img {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style_1.css.map */

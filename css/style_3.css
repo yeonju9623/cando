@@ -1,0 +1,412 @@
+@import "./reset.css";
+.third-page {
+  background-color: #aef4a4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.third-page .div {
+  background-color: #aef4a4;
+  overflow: hidden;
+  width: 425px;
+  height: 812px;
+  position: relative;
+}
+
+.notice {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.notice-2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.marquee-above, .marquee-bottom {
+  display: inline-block;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  animation: move-rtl 20000ms linear infinite;
+}
+
+.marquee-bottom {
+  animation: move-rtl-bottom 20000ms linear infinite;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes move-rtl-bottom {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.line {
+  height: 100vh;
+  margin: 0;
+}
+
+.overlap-2 {
+  position: absolute;
+  width: 420px;
+  height: 702px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-1 {
+  height: 692px;
+  width: 2px;
+  background-color: #FFFDB7;
+  margin-bottom: 30px;
+}
+
+.line-2 {
+  position: absolute;
+  height: 2px;
+  width: 692px;
+  background-color: #FFFDB7;
+  top: 48%;
+  transform: translateY(-50%);
+}
+
+.line-3 {
+  position: absolute;
+  height: 2px;
+  width: 692px;
+  background-color: #FFFDB7;
+  top: 23%;
+  transform: translateY(-25%);
+}
+
+.line-4 {
+  position: absolute;
+  height: 2px;
+  width: 692px;
+  background-color: #FFFDB7;
+  top: 73%;
+  transform: translateY(-75%);
+}
+
+.overlap .mk-rot-img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 47px;
+  left: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlap .mk-rot-img .mk-img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .mk-rot-img:hover .mk-rot-gif {
+  opacity: 1;
+}
+
+.overlap .mk-rot-img:hover .mk-img {
+  opacity: 0;
+}
+
+.overlap .mk-rot-img .mk-rot-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlap .mk-rot-gif .mk-rot {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .hc-rot-img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 47px;
+  left: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlap .hc-rot-img .hc-img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .hc-rot-img:hover .hc-rot-gif {
+  opacity: 1;
+}
+
+.overlap .hc-rot-img:hover .hc-img {
+  opacity: 0;
+}
+
+.overlap .hc-rot-img .hc-rot-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlap .hc-rot-gif .hc-rot {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .jm-rot-img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 230px;
+  left: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlap .jm-rot-img .jm-img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .jm-rot-img:hover .jm-rot-gif {
+  opacity: 1;
+}
+
+.overlap .jm-rot-img:hover .jm-img {
+  opacity: 0;
+}
+
+.overlap .jm-rot-img .jm-rot-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlap .jm-rot-gif .jm-rot {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .jn-rot-img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 230px;
+  left: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlap .jn-rot-img .jn-img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .jn-rot-img:hover .jn-rot-gif {
+  opacity: 1;
+}
+
+.overlap .jn-rot-img:hover .jn-img {
+  opacity: 0;
+}
+
+.overlap .jn-rot-img .jn-rot-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlap .jn-rot-gif .jn-rot {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .rj-rot-img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 400px;
+  left: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlap .rj-rot-img .rj-img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .rj-rot-img:hover .rj-rot-gif {
+  opacity: 1;
+}
+
+.overlap .rj-rot-img:hover .rj-img {
+  opacity: 0;
+}
+
+.overlap .rj-rot-img .rj-rot-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlap .rj-rot-gif .rj-rot {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .cl-rot-img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 400px;
+  left: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlap .cl-rot-img .cl-img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .cl-rot-img:hover .cl-rot-gif {
+  opacity: 1;
+}
+
+.overlap .cl-rot-img:hover .cl-img {
+  opacity: 0;
+}
+
+.overlap .cl-rot-img .cl-rot-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlap .cl-rot-gif .cl-rot {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .js-rot-img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 580px;
+  left: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlap .js-rot-img .js-img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlap .js-rot-img:hover .js-rot-gif {
+  opacity: 1;
+}
+
+.overlap .js-rot-img:hover .js-img {
+  opacity: 0;
+}
+
+.overlap .js-rot-img .js-rot-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlap .js-rot-gif .js-rot {
+  width: 100%;
+  height: 100%;
+}
+
+.third-page .smile {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  top: 635px;
+  left: 280px;
+}
+
+.third-page .text-wrapper-2 {
+  position: absolute;
+  width: 274px;
+  top: 610px;
+  left: 175px;
+  font-family: "Space Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #161c2e;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.third-page .text-wrapper-3 {
+  position: absolute;
+  width: 274px;
+  top: 710px;
+  left: 175px;
+  font-family: "Space Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #161c2e;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}/*# sourceMappingURL=style_3.css.map */

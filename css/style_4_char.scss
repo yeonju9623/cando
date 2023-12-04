@@ -1,0 +1,120 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lobster&display=swap');
+
+  .frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  width: 425px;
+  height: 1624px;
+  position: relative;
+}
+
+.frame .fourth-page-detail {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 425px;
+  height: 812px;
+  top: 0;
+  left: 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(227, 100, 136) 0%, rgb(255, 253, 183) 100%);
+}
+
+.frame .text-wrapper {
+  position: fixed;
+  top: 80px;
+  left: 55px;
+  -webkit-text-stroke: 1.5px #161c2e;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
+  color: #aef4a4;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .navigation-bar {
+  position: relative;
+  width: 425px;
+  height: 50px;
+  top: 745px;
+  left: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.frame .home-icon {
+  position: fixed;
+  width: 58px;
+  height: 58px;
+  top: 645px;
+  left: 20px;
+}
+
+.frame .back-icon {
+  position: fixed;
+  width: 58px;
+  height: 58px;
+  top: 645px;
+  left: 340px;
+}
+
+.frame .shakeimg {
+  position: absolute;
+  width: 425px;
+  height: 812px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.frame .shake {
+  position: fixed;
+  width: 425px;
+  height: 500px;
+  top: 156px;
+  left: 20;
+  object-fit: cover;
+}
+
+.frame .fourth-page-detail-2 {
+  top: 812px;
+  background: linear-gradient(180deg, rgb(255, 253, 183) 0%, rgb(227, 100, 136) 53.65%, rgb(182, 220, 255) 100%);
+  position: absolute;
+  width: 425px;
+  height: 812px;
+  left: 0;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 425px;
+  height: 500px;
+  top: 156px;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  -webkit-text-stroke: 1px #fffdb7;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
+  color: #e36488;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
